@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .navbar {
   display: flex;
@@ -75,26 +70,8 @@ p {
 
 /*body {
   background: linear-gradient(to bottom right, white, #646FD4);
-}
-
-
-.btn {
-  display: inline-block;
-  background: #242F9B;
-  color: white;
-  padding: 8px 30px;
-  margin: 30px;
-  border-radius: 30px;
-}
-
-
-
-
-
-
-
-
-
-/*body {
-  background: linear-gradient(to bottom right, white, #646FD4);
+}* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
