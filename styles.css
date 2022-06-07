@@ -36,9 +36,9 @@ p {
 h3 {
   text-align: center;
 }
+
 h6 {
   text-align: center;
-
 }
 
 .container {
@@ -103,12 +103,11 @@ h6 {
   flex-basis: 30%;
   min-width: 250px;
   margin-bottom: 30px;
-
+  box-shadow: 20px 20px 50px grey;
 }
 
 .col-3 img {
   width: 100%;
-  border-bottom-right-radius: 50px;
 }
 
 .small-container {
@@ -122,6 +121,20 @@ h6 {
   from {
     transform: rotateY(0deg)
   }
+
+  to {
+    transform: rotateY(360deg)
+  }
+}
+
+.spinhov3D:hover {
+  animation-name: spin3D;
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  /* linear | ease | ease-in | ease-out | ease-in-out */
+  animation-timing-function: ease-in-out;
+}
+
 
   to {
     transform: rotateY(360deg)
